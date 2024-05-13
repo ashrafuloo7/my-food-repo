@@ -1,0 +1,37 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(242, 236, 236);
+  }
+h1{
+    font-size: 70px;
+}
+.skip{
+    color: orange;
+}
+.food-website{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+.food-diet{
+    width: 50%;
+    padding-left: 80px;  
+}
+.food-diet img{
+    height: 750px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.food-order{
+    text-decoration: none;
+    background-image: linear-gradient(orange , tomato);
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: bisque;
+    font-size: larger;  
+}
+p{
+    padding-bottom: 20px;
+}
