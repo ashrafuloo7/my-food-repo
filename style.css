@@ -2,17 +2,21 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: rgb(242, 236, 236);
+    background-color: #f0f0f0;
     margin: 0;
+    padding: 0;
   }
 h1{
     font-size: 70px;
 }
-h3{
-    font-size: 30px;
-}
 h2{
-    color: rgb(115, 108, 99);
+    font-size: 50px;
+}
+h3{
+    font-size: 33px;
+}
+p{
+    padding-bottom: 20px;
 }
 .skip{
     color: orange;
@@ -37,36 +41,16 @@ h2{
     padding: 15px 40px;
     border-radius: 30px;
     color: bisque;
-    font-size: larger;  
+    font-size: larger;
+    margin-top:10px;  
 }
-p{
-    padding-bottom: 20px;
+.food-order p{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 #back-food{
     background-image: url(images/shapes/Frame\ 57.jpg);
-}
-.recipe{
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.all-item{
-    
-}
-.three-recipe{
-    display: inline-flex;
-    padding: 0;
-    width: 33%;
-    text-align: left;
-    box-shadow: 0px 0px 10px 10px gray;
-}
-.three-recipe img{
-    height: 300px;
-    width: 300px;
-}
-.social-site{
-    display:inline-flex;
-    
+    background-repeat: no-repeat;
 }
 footer{
     text-align: center;
@@ -78,4 +62,61 @@ footer{
 #eat{
     color: rgb(245, 229, 209);
     padding-top: 20px;
+}
+
+.recipe{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.me{
+    color: rgb(139, 115, 115);
+}
+.recipe p{
+     padding-left: 20%;
+     padding-right:20%;
+     color:rgb(94, 88, 88);
+     margin-bottom: 20px;
+}
+.food-recipe{
+    display: flex;
+   background-color: #f0f0f0;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+.food{
+   width: 380px;
+   overflow: hidden;
+   box-shadow: 2px 2px 4px gray;
+   border-radius: 10px;
+   margin: 20px;
+   height: 550px; 
+}
+.food img{
+    height: 50%;
+    width: 90%;
+    padding:20px   
+}
+
+.recipe-item{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30%;
+}
+.recipe-item p{
+    color:rgb(78, 68, 68);
+}
+.social-site{
+   background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px gray;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.social{
+    width: 300px;
+    background-color:#f0f0f0 ;    
 }
